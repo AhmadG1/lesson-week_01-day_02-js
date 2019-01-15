@@ -1,0 +1,25 @@
+"Problem 1"
+var numberOfChildren = "3";
+var partnersName = "Hayley Williams";
+var geographicLocation = "Japan";
+var jobTitle = "Executive Chef";
+var future = " You will be an " + jobTitle + " in " + geographicLocation + " ,and married to " + partnersName + " with " + numberOfChildren + " kids. ";
+console.log(future);
+You will be an Executive Chef in Japan ,and married to Hayley Williams with 3 kids. 
+
+"Problem 2"
+var currentYear = 2019;
+var birthYear = 1993;
+var age = currentYear - birthYear;
+console.log (" They are either " + age + " or " + (age - 1) );
+They are either 26 or 25
+
+"Problem 3"
+var currentAge = 25;
+var maxAge = 170;
+var numPerDay = 2;
+var Total = (numPerDay * 365) * (maxAge - currentAge);
+var message = " You will need " + Total + " cups of tea to last you until the ripe old age of " + maxAge;
+console.log(message);
+You will need 105850 cups of tea to last you until the ripe old age of 170
+
